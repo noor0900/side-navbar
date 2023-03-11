@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Ubuntu');
+
+
+body{
+    padding:0px;
+    margin:0px;
+    background-image: url(../asserts/aa.jpg);
+    background-repeat: no-repeat;
+
+    
+  }
+  .menu{
+    position:absolute;
+    display:inline-flex;
+    height:100%;
+    background-image : url('//unsplash.it/743');
+    object-fit: fill;
+    z-index:-1;
+  }
+  .content{
+    box-shadow: 0 0 .8em rgba(0,0,0,.7);
+    overflow:hidden;
+    box-sizing:border-box;
+    display:grid;
+    position:relative;
+    width:8%;
+    height:100%;
+    transition: width .5s ease-out;
+    opacity:0.7;
+  }
+  .content>a{
+    text-shadow:0 .2em .2em rgba(0,0,0,.7);
+    font-weight:bold;
+    margin:auto;
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+    transform:rotate(90deg) translateY(0.5em);
+    transition : all .4s ease-in;
+  }
+  .content>span{
+    text-shadow: 0 .2em .1em rgba(0,0,0,.5);
+    font-family: 'Josefin Sans', sans-serif;
+    color:rgba(255, 255, 255, 0.616);
+    margin:auto;
+    padding:0em 1em;
+    height:0px;
+    overflow:hidden;
+    transition: height .4s ease-out .5s;
+  }
+  .content:hover{
+    width:25%;
+  }
+  .content:hover a{
+    transform:rotate(0deg);
+  }
+  .content:hover span{
+    padding:1em;
+    height:100%;
+  }
+  .content:nth-child(1){
+    background-image:linear-gradient(90deg,#7a223a,#ffdab96c);
+  }
+  .content:nth-child(2){
+    background-image:linear-gradient(90deg,#2facff5e,#1ccbaa);
+  }
+  .content:nth-child(3){
+    background-image:linear-gradient(90deg,#6666ff94,#F4A460);
+  }
+  @media only screen and (max-width:750px){
+    body{
+      font-size:10px;
+    }
+  }
+  @media only screen and (max-width:800px){
+    body{
+      font-size:10px;
+    }
+  }
+  @media only screen and (max-width:500px){
+    body{
+      font-size:6px;
+    }
+  }
+  .ee{
+   position: absolute;
+   left: 62%;
+  }
