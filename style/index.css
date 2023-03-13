@@ -4,7 +4,7 @@
 body{
     padding:0px;
     margin:0px;
-   
+    background-image: url(../asserts/aa.jpg);
 
     
   }
@@ -17,7 +17,7 @@ body{
     z-index:-1;
   }
   .content{
-    box-shadow: 0 0 .8em rgba(0,0,0,.7);
+    box-shadow: 0 0 .8em rgba(0, 0, 0, 0.247);
     overflow:hidden;
     box-sizing:border-box;
     display:grid;
